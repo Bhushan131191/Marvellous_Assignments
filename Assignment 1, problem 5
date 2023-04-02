@@ -1,0 +1,18 @@
+function Fibonacci(No1:number):void
+{
+    let prev:number=0
+    let curr:number=1
+    let next:number=1
+
+console.log("Fibonecci series for "+No1,"number")
+console.log(prev)
+console.log(curr)
+while (next <= No1)
+    {
+    console.log(next)
+    prev=curr
+    curr=next
+    next=prev+curr
+    }
+}
+Fibonacci(21);
