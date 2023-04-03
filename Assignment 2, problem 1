@@ -1,0 +1,18 @@
+function Maximum(Arr:number[]):number
+{
+    let cnt=Arr[0]
+
+    for(let i=1;i<Arr.length;i++)
+    {
+       if(Arr[i] > cnt )
+        {
+            cnt=Arr[i]
+        }
+    }
+    return cnt
+}
+
+var Array1:number[]=[23, 89, 6, 29, 56, 45, 77, 32]
+var maxNumber = Maximum(Array1);
+
+console.log("Maximium number is:"+maxNumber)
