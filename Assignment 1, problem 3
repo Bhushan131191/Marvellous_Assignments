@@ -1,0 +1,15 @@
+function DisplayFactor(no1:number):void
+{
+    let cnt:number=0
+
+    for(cnt=0;cnt<=no1;cnt++)
+
+    if (no1%cnt == 0)
+    {
+        console.log("factors of number 20:"+cnt)
+    }
+
+    
+}
+
+DisplayFactor(20)
