@@ -1,0 +1,10 @@
+function ChkString(): void 
+{
+    const str: string = "Pune Kothrud Marvellous Infosystems";
+    if (str.indexOf("Marvellous") !== -1) 
+    {
+      console.log("String contains Marvellous in it");
+    }
+}
+  
+ChkString()
