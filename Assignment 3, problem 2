@@ -1,0 +1,23 @@
+class Circle
+{
+    rad:number
+    pi:number
+
+    constructor (A:number,B:number=3.14)
+    {
+    this.rad=A
+    this.pi=B
+    }
+
+    Area():number
+    {
+    return this.pi*this.rad*this.rad
+    }       
+}
+
+var obj=new Circle(5)
+
+var Ret:number=0
+
+Ret=obj.Area()
+console.log("Area of circle is:"+Ret)
