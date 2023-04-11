@@ -1,0 +1,43 @@
+class Arithmatic 
+{
+    no1:number
+    no2:number 
+
+constructor (A:number,B:number)
+{
+    this.no1=A
+    this.no2=B
+}
+Addition():number
+    {
+        return this.no1+this.no2
+    }
+Substraction():number
+    {
+        return this.no1-this.no2
+    }
+Multiplication():number
+    {
+        return this.no1*this.no2
+    }
+Division():number
+    {
+        return this.no1/this.no2
+    }
+}
+
+var obj1=new Arithmatic(100,25)
+
+var Ret:number=0
+
+Ret=obj1.Addition()
+console.log("Addition of 2 numbers is:"+Ret)
+
+Ret=obj1.Substraction()
+console.log("Substraction of 2 numbers is:"+Ret)
+
+Ret=obj1.Multiplication()
+console.log("Multiplication of 2 numbers is:"+Ret)
+
+Ret=obj1.Division()
+console.log("Division of 2 numbers is:"+Ret)
